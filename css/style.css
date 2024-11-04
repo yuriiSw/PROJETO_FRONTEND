@@ -62,7 +62,7 @@ a {
   left: 0;
 }
 
-.hero {
+.slogan-gym {
   height: calc(100vh - 70px);
   background: #10131a;
   display: flex;
@@ -71,7 +71,7 @@ a {
   padding: 20px;
 }
 
-.hero-content {
+.slogan-gym-content {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -80,7 +80,7 @@ a {
   flex-wrap: wrap;
 }
 
-.hero-text {
+.slogan-gym-text {
   max-width: 600px;
   z-index: 1;
 }
@@ -94,7 +94,7 @@ a {
   margin-bottom: 10px;
 }
 
-.hero-text h1 {
+.slogan-gym-text h1 {
   font-size: 48px;
   line-height: 1.2;
   font-weight: 700;
@@ -129,11 +129,11 @@ a {
   color: #ffffff;
 }
 
-.hero-image {
+.slogan-gym-image {
   max-width: 400px;
 }
 
-.hero-image img {
+.slogan-gym-image img {
   width: 100%;
   height: auto;
   object-fit: cover;
@@ -226,13 +226,13 @@ a {
     top: -8px;
   }
 }
-.containerprograma {
+.programas-gym {
   text-align: center;
   padding: 60px 20px;
   background-color: #10131a;
 }
 
-.containerprograma h2 {
+.programas-gym h2 {
   font-size: 2rem;
   margin-bottom: 40px;
   color: #ffffff;
@@ -299,7 +299,7 @@ a {
   }
 }
 
-.instructor-cards {
+.instrutor-cards {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -308,22 +308,22 @@ a {
   color: #fff;
 }
 
-.instructor-cards-content {
+.instrutor-cards-content {
   display: flex;
   align-items: center;
   max-width: 1200px;
 }
 
-.instructor-cards-images {
+.instrutor-cards-images {
   position: relative;
 }
 
-.instructor-cards-img-main {
+.instrutor-cards-img-main {
   width: 300px;
   border-radius: 8px;
 }
 
-.instructor-cards-img-small {
+.instrutor-cards-img-small {
   width: 150px;
   position: absolute;
   left: 20px;
@@ -331,22 +331,22 @@ a {
   border-radius: 8px;
 }
 
-.instructor-cards-text {
+.instrutor-cards-text {
   margin-left: 30px;
   max-width: 500px;
 }
 
-.instructor-cards-text h2 {
+.instrutor-cards-text h2 {
   font-size: 24px;
   font-weight: 700;
 }
 
-.instructor-cards-text p {
+.instrutor-cards-text p {
   font-size: 16px;
   margin-top: 10px;
 }
 
-.instructor-cards-button {
+.instrutor-cards-button {
   background-color: yellow;
   color: #000000;
   padding: 12px 24px;
@@ -358,7 +358,7 @@ a {
   transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-.instructor-cards-button:hover {
+.instrutor-cards-button:hover {
   background-color: orange;
   color: #ffffff;
 }
@@ -390,7 +390,7 @@ a {
   margin-right: auto;
 }
 
-.benefits-section {
+.beneficios-section {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -398,7 +398,7 @@ a {
   gap: 20px;
 }
 
-.benefits-image {
+.beneficios-image {
   max-width: 50%;
   height: auto;
   border-radius: 8px;
@@ -406,7 +406,7 @@ a {
   display: block;
 }
 
-.benefit-cards {
+.beneficios-cards {
   display: flex;
   flex-direction: row;
   gap: 20px;
@@ -414,7 +414,7 @@ a {
   width: 100%;
 }
 
-.benefit-cards .card {
+.beneficios-cards .card {
   background-color: #1f2e21;
   padding: 20px;
   border-radius: 8px;
@@ -423,18 +423,18 @@ a {
   text-align: center;
 }
 
-.benefit-cards .card:hover {
+.beneficios-cards .card:hover {
   transform: translateY(-10px);
   box-shadow: 0 4px 15px rgba(255, 170, 0, 0.3);
 }
 
-.benefit-cards .card h3 {
+.beneficios-cards .card h3 {
   font-size: 1.4rem;
   color: yellow;
   margin-bottom: 10px;
 }
 
-.benefit-cards .card p {
+.beneficios-cards .card p {
   font-size: 0.9rem;
   color: #cccccc;
 }
@@ -555,7 +555,7 @@ a {
   }
 }
 
-.client-review {
+.cliente-review {
   background-color: #1f1f1f;
   color: #fff;
   padding: 3rem;
